@@ -5,9 +5,10 @@ const Home = () => {
     <>
                     <div className="bg d-flex justify-content-center align-items-center">
                      <div className="ml-4" >
-                         <h1 className="text-white">Find Your Next Job</h1>
+                         <h1 className="text-white text-9xl ">Find Your Next Job</h1>
                          <h2 className="text-white">Make your training plan clear</h2>
-                         <div className="row form-container mt-4">
+                         <h2 className="text-white">With <b>Er Sanjay Sharma</b></h2>
+                         {/* <div className="row form-container mt-4">
                              <form>
                              <div class="row">
                              <div class="col-sm">
@@ -25,16 +26,16 @@ const Home = () => {
 
 
                                            
-                                      </select>
-                                      </div>
-                                      <div class="col-sm">
+                                      {/* </select> */}
+                                      {/* </div> */}
+                                      {/* <div class="col-sm">
 
                                  <a to="/careerchoice"  name="/careerchoice" className="btn-success btn border mt-4 " id="btn"  >career path </a> 
                                  <a to="/training"  name="/training" className="border ml-2  btn btn-success mt-4" id="btn"  >consultation </a> 
-                            </div>
-                            </div>
-                            </form>
-                         </div>
+                            </div> */}
+                            {/* </div> */}
+                            {/* </form> */}
+                         {/* </div>  */}
                      </div>
                     </div>
                     </>

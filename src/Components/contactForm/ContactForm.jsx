@@ -4,10 +4,11 @@ const ContactForm = () => {
   return (
     <>
          <div className=" row p-0 m-0">
+                 <h2 className="py-2 about-text text-center">Contact</h2>
                  
                  <div className="col-md-6 d-flex align-items-center">
                  <div>
-                 <h2 className="py-2 about-text">Contact</h2>
+                 {/* <h2 className="py-2 about-text">Contact</h2> */}
                  <p className="aboutpragragh text-secondary"> If you have a question about our career assessments, use can use the the form below. We do try to answer all queries within 48 hours !!</p>
 
                     <form>
