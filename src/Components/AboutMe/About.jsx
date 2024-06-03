@@ -17,7 +17,7 @@ const About = () => {
                         <ul className="list-unstyled">
                             <li className="pb-1 ">
                             <FontAwesomeIcon icon={faBriefcase} />
-                                  {"  "}  HOD OF MCAM SURLON INDIA LTD.
+                                  {"    "}  HOD OF MCAM SURLON INDIA LTD.
                             </li>
                             <li className="pb-1">
                             <FontAwesomeIcon icon={faBriefcase} />
