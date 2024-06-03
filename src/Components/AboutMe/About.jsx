@@ -8,7 +8,7 @@ const About = () => {
              <div className="overflow-hidden aboutsection">
              <div className="container py-5">
                  <div className="row  m-0 p-0 ">
-                     <div className="col-md-6 rounded-circle">
+                     <div className="col-md-6 rounded-circle my-3">
                         <img src={img2} className='rounded-circle' width="50%"/>
                      </div>
                      <div className="col-md-6 my-3">
