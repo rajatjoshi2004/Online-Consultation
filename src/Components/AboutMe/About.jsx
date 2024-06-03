@@ -12,7 +12,7 @@ const About = () => {
                         <img src={img2} className='rounded-circle' width="50%"/>
                      </div>
                      <div className="col-md-6">
-                        <h3>About Me</h3>
+                        <h3>About Me sanjay</h3>
                         {/* <p className="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. officia possimus error,  voluptate itaque beatae totam. Quis, incidunt. Incidunt, odit necessitatibus.</p> */}
                         <ul className="list-unstyled">
                             <li className="pb-1 ">
