@@ -1,26 +1,21 @@
 import React from 'react'
 
-import Navbar from './Components/Navbar/Navbar'
-import Home from './Components/Home/Home.jsx'
-import About from './Components/About/About.js'
-import Card from './Components/Card/Card.js'
-import SubscriptionPage from './page/SubscriptionPage.js'
-import ContactForm from './Components/contactForm/ContactForm.jsx'
-import Footer from './Components/Footer/Footer.jsx'
-import Aboutme from './Components/AboutMe/About.jsx'
+import Mainpage from './page/Mainpage.jsx'
+import Consultpage from './page/Consultpage.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
+   <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Mainpage/>}/>
+      <Route path='/Consultant' element={<Consultpage/>}/>
+    </Routes>
+   </BrowserRouter>
    
    
-    <Navbar/>
-      <Home/>
-      <About/>
-    <SubscriptionPage/>
-    <ContactForm/>
-    <Aboutme/>
-    <Footer/>
+    
     </>
   )
 }
